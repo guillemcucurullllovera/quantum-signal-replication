@@ -1,0 +1,8 @@
+{
+  "excluded": [
+    "test_documented_failure_status_is_honest",
+    "test_noise_does_not_trivially_fix_kernel_concentration",
+    "test_noisy_hardware_variant_rdms_are_physical"
+  ],
+  "reason": "Hardware/noisy-backend integrations and historical dataset-result constants are not shipped or revalidated. All retained numerical tests use synthetic inputs."
+}
